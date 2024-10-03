@@ -1,0 +1,59 @@
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+
+.DS_Store
+node_modules
+/dist
+/TIMS/wwwroot
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+
+*.sw?
+
+
+
+# Visual Studio Code
+.vscode
+**/appsettings.Development.json
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+*.IConnectionSetting.cs
+x64/
+x86/
+build/
+bld/
+bin/
+obj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+.vs/
+/node_modules/.staging
+/node_modules
